@@ -1,0 +1,4 @@
+Flask
+pywebview
+beautifulsoup4
+pywinauto
