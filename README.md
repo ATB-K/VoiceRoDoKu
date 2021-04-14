@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/ATB-K/VoiceRoDoKu/doc/image/VoiceRoDoKu.png">
 
-AHS社の[VOICEROID2](https://www.ah-soft.com/voiceroid/)を制御してWeb小説を読み上げさせるソフトです。</br>
+AHS社の[VOICEROID2](https://www.ah-soft.com/voiceroid/)を制御してWeb小説を朗読させるソフトです。(読み上げ時は画面左の立ち絵は口パクします)</br>
 対応Webサイトは下記です。
 | サイト名 | リンク |
 | --- | --- |
@@ -17,10 +17,15 @@ AHS社の[VOICEROID2](https://www.ah-soft.com/voiceroid/)を制御してWeb小�
 
 ## 使い方 (Usage)
 
-1. 起動後に「Get」ボタン横のテキストボックスにWeb小説のURLを入力。
-2. 「Get」ボタンを押下してタイトルとエピソード一覧を読み込む。
-3. 「START」ボタンを押下して読み上げを開始させる。
-4. 「STOP」ボタンで読み上げを終了させます。
+1. 起動後に「Get」ボタン横のテキストボックスにWeb小説のURLを入力します。
+2. 「Get」ボタンを押下すると、タイトルとエピソード一覧が読み込まれます。
+3. 朗読させたいエピソードを選択します。
+4. 「START」ボタンを押下して読み上げが開始されます。
+5. 「STOP」ボタンで読み上げを終了します。
+
+### ※注意
+
+- pywinautoの制約により、読み上げ中はVOICEROID2のアプリにアクティブウィンドウが頻繁に切り替わります。</br>頑張ったけどどーしようも無いのでAHS社さんがIF作ってくれることに期待しましょう。
 
 ## 依存関係 (Requirement)
 
